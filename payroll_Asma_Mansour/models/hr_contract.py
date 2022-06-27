@@ -36,7 +36,7 @@ class HrContract(models.Model):
             ("Jeudi", "Jeudi"),
             ("Vendredi", "Vendredi"),
             ("Samedi", "Samedi"),
-            ("Dimanche", "Dimanche"),
+            ("Dimanche", "Dimanche"), 
         ],
         string="Jour de repos 2", default='', tracking=True)
     employee_id = fields.Many2one("hr.employee")
